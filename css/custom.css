@@ -298,9 +298,7 @@ i {
     filter: grayscale(0%);
     opacity: 1;
 }
- a:hover{
-  color: #4b88c1!important;
-}
+
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption{
   background: #4b88c1;
 }
