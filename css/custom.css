@@ -276,6 +276,36 @@ i {
   background: #fafafa;
 }
 
+.about-header{
+  text-align: center;
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color:#4b88c1;
+}
+
+.about-desc{
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  padding: 44px;
+}
+
+#about ul{
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 70px;
+  line-height: 28px;
+}
+
+.curveUpColor{
+  fill: white;
+  position: absolute;
+  bottom: -100px;
+  z-index: 555;
+}
+
 .content{
   position: relative;
   z-index: 55;
