@@ -269,6 +269,11 @@ i {
   font-size: 15px;
   color: #757575;    
   margin-bottom: 60px;
+  text-align: left;
+  padding: 10px;
+}
+.bg-grey{
+  background: #fafafa;
 }
 
 .content{
