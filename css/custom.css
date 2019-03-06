@@ -210,14 +210,13 @@ hr.divider {
   background-size: auto 100%;
 }
 
-.integration{
+/* .integration{
   width: 100%;
   font-size: 0;
   text-align: center;
-  }
+  } */
 
 .row .integration div {
-  display: inline-block;
   background-position: 50% 100%;
   background-repeat: no-repeat;
   min-width: 72px;
@@ -410,6 +409,20 @@ a:hover {
 .parallax-cloud{
   /* The image used */
   background-image: url("../img/cables.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-backend{
+  /* The image used */
+  background-image: url("../img/backend.jpg");
 
   /* Set a specific height */
   min-height: 500px; 
