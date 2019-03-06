@@ -104,6 +104,11 @@ header video {
   margin: 0 auto;
 }
 
+.card-link:hover{
+  text-decoration: none;
+  color: black;
+}
+
 .zoom:hover {
   -ms-transform: scale(1.2); /* IE 9 */
   -webkit-transform: scale(1.2); /* Safari 3-8 */
@@ -205,20 +210,40 @@ hr.divider {
   background-size: auto 100%;
 }
 
-.icons.cloud .icon1{
+.integration{
+  width: 100%;
+  font-size: 0;
+  text-align: center;
+  }
+
+.row .integration div {
+  display: inline-block;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  min-width: 72px;
+  width: 20%;
+  height: 40px;
+  background-size: auto 100%;
+}
+
+.cloud .icon1{
   background-image: url(../img/cloud/azure.png)
 }
 
-.icons.cloud .icon2{
+.cloud .icon2{
   background-image: url(../img/cloud/aws.png)
 }
 
-.icons.cloud .icon3{
+.cloud .icon3{
   background-image: url(../img/cloud/genesys.png)
 }
 
-.icons.cloud .icon4{
+.cloud .icon4{
   background-image: url(../img/cloud/google.png)
+}
+
+.cloud .icon5{
+  background-image: url(../img/cloud/twilio.png)
 }
 
 .icons.backEnd .icon1{
@@ -252,6 +277,33 @@ hr.divider {
 .icons.frontEnd .icon4{
   background-image: url(../img/front/react.png)
 }
+
+.slide-fwd-center {
+	-webkit-animation: slide-fwd-center 2.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-fwd-center 2.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-fwd-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(160px);
+            transform: translateZ(160px);
+  }
+}
+@keyframes slide-fwd-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(160px);
+            transform: translateZ(160px);
+  }
+}
+
 
 
 i {
@@ -353,6 +405,20 @@ a:hover {
 .social:hover{
   color: #4b88c1;
   text-decoration: none;
+}
+
+.parallax-cloud{
+  /* The image used */
+  background-image: url("../img/cables.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 992px){
